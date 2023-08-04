@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(190, 213, 244);
+}
+h1{
+    text-align: center;
+}
+.inpText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+textarea{
+    background-color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap:20px;
+}
+#addTask{
+    background-color:rgb(99, 99, 236);
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+}
+#priorityTask{
+    background-color:black;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+
+}
+#deleteTasks{
+    background-color:red;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.todo-item{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.complete-btn{
+    background-color: blue;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+}
+.delete-btn{
+    background-color: red;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+
+}
