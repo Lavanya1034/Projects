@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    height:300px;
+    width:500px;
+    margin-top: 50px;
+    border-radius: 3%;
+
+}
+#today{
+    background-color: rgb(79, 79, 234);
+    color: white;
+    width:40%;
+    text-align: center;
+}
+#day{
+    color: rgba(224, 152, 18, 0.883);
+    font-size: 50px;
+}
+#desc{
+    font-size: 40px;
+    color: blue;
+    font-weight: 50;
+}

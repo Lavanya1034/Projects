@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+    
+    margin-top: 80px;
+    height:500px;
+    width:800px;
+    background-color: blue;
+}
+#ques,h1{
+    text-align: center;
+    color:white;
+}
+#ques{
+    margin-left: 30px;
+    width:750px;
+    background-color: yellow;
+    color:black;
+}
+#answers{
+    width:300px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:yellow;
+}
+
+#btn{
+    margin-left: 40%;
+    margin-top: 10px;
+    padding:10px 30px;
+    background-color: red;
+    color: white;
+}
+#btnPlay{
+    padding:10px 30px;
+    background-color: red;
+    color: white;
+    margin-left: 41%;
+
+}
+
+#result{
+    color:white;
+    text-align: center;
+}
