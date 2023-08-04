@@ -1,0 +1,25 @@
+#outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    height:530px;
+    width:80%;
+
+}
+#inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:65%;
+    height:88%;
+    background-color: #eee;
+    border-radius: 10px;
+
+}
+
+#signUpHead{
+    color:blue;
+
+}

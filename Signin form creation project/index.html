@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Form Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Welcome!! Please enter your credentials to Sign up</h1>
+    <div id="formSection">
+        <form id="form" novalidate>
+            <div class="formDiv">
+                <label>Name</label>
+                <input class="input" type="text" placeholder="Enter your Name here"/>
+                <span class="err"  id="nameErr"></span>
+            </div>
+            <div class="formDiv">
+                <label>Email</label>
+                <input class="input" type="email" placeholder="Enter your Email here"/>
+                <span class="err" id="emailErr"></span>
+            </div>
+            <div class="formDiv">
+                <label>Password</label>
+                <input class="input passShow" type="password" placeholder="Enter your Password here"/>
+                <i class="far fa-eye passEyeSym"></i>
+                <span class="err" id="passErr"></span>
+            </div>
+            <div class="formDiv">
+                <label>Confirm Password</label>
+                <input class="input passShow" type="password" placeholder="Re-Confirm your password"/>
+                <i class="far fa-eye passEyeSym"></i>
+                <span class="err" id="conPassErr"></span>
+            </div>
+            <div class="formDiv">
+                <input class="input" id="btn" type="submit" placeholder="Get Started" name="Get Started"/>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

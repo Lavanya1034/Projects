@@ -1,0 +1,96 @@
+@import url("./signuppagestyle.css");
+
+body{
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#formSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    height:500px;
+    width:80%;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:65%;
+    height:88%;
+    background-color: #eee;
+    border-radius: 10px;
+}
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input{
+    border: 1px solid #ccc;
+    width:300px;
+    height:20px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding:8px;
+}
+#nameErr,#emailErr,#passErr,#conPassErr{
+    color: red;
+}
+
+#btn{
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: green;
+}
+input:focus{
+    color: blue;
+}
+
+.passEyeSym{
+    margin-top: -30px;
+    margin-left:280px;
+    padding-bottom: 20px;
+
+}
+.passEyeSym:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 619px) {
+    .input{
+        width:max-content;
+    }
+    .passEyeSym{
+        margin:0;
+        padding:0;
+    }
+
+}
+@media only screen and (min-width: 620px) {
+    .passEyeSym{
+        margin-top: -30px;
+        margin-left:280px;
+        padding-bottom: 20px;
+    }
+
+}
