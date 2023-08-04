@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(103.71deg, rgba(97, 192, 191, 0.28) 5.64%, rgba(255, 182, 185, 0.46) 45.19%, #FAE3D9 86.43%);
+    font-family: 'Sen';
+    font-style: normal;
+
+}
+
+#calculator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    flex-direction: column;
+    width: 1080px;
+    height: 600px;
+    padding-left:15%;
+    margin-top: 4%;
+    
+    
+}
+
+#values{
+    display: flex;
+    gap:90px;
+    margin-bottom: 60px;
+    
+}
+
+h1{
+    width: 669px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 96px;
+    text-transform:capitalize;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.dob{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    gap:40px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    width:175px;
+}
+
+input[type="text"]{
+    width: 175px;
+    height: 43px;
+    border: #C4C4C4;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#subBtn{
+    width: 275px;
+    height: 56px;
+    background: rgba(60, 160, 255, 0.84);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.09em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border:none;
+    margin:30px;
+    
+}
+#age{
+    width: 776px;
+height: 54px;
+font-weight: 400;
+font-size: 32px;
+line-height: 29px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+text-transform: capitalize;
+
+color: #20B2AA;
+}
